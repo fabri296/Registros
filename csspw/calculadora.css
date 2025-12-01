@@ -1,0 +1,38 @@
+body{
+    background-color: #1a1a2e; /* fondo oscuro azul profundo */
+    color: #e0e0e0; /* texto gris claro */
+    margin: 0;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #6c5ce7; /* morado suave */
+    color: #fff; /* texto blanco */
+    border-radius: 5px; /* bordes redondeados para mejor estética */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul a:hover{
+    color: #fff; 
+    background-color: #341f97; /* morado más oscuro al pasar el mouse */
+}
+
+nav{
+    background-color: #162447; /* azul oscuro para el nav */
+    margin: 0;
+    padding: 10px;
+}
+
+.imagenes img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px; /* bordes suaves para las imágenes */
+}

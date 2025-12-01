@@ -1,0 +1,37 @@
+.Pie a{
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    background-color: lightgrey;
+}
+.Pie{
+    text-align: center;
+}
+body{
+    background-color: lightgrey;
+    color: black;
+}
+header{
+    color: red;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: red;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+nav a:hover, nav a:active{
+    background-color: red;
+    color: black;
+    border: 2px solid lightgrey;
+}
+nav{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}

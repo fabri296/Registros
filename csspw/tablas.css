@@ -1,0 +1,23 @@
+.tabla1 td {
+    background-color: black;
+    color:white
+
+}
+.tabla1 tr{
+    background-color: gray;
+}
+.tabla2 th{
+    background-color: gray;
+}
+.tabla2 td{
+    background-color: blueviolet;
+    color: aqua;
+}
+.tabla3 th{
+    background-color: green;
+    color: yellow;
+}
+.tabla3 td{
+    background-color: red;
+    color: yellow;
+}

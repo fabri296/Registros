@@ -1,0 +1,70 @@
+ .titulo{
+            padding: 15px 20px;
+            margin: 0;
+            background-color: greenyellow;
+            text-align: center;
+            color: black;
+        }
+        header{
+            background-color: greenyellow;
+        }
+        .titulo a{
+            text-decoration: none;
+            color: rgb(161, 255, 21);
+            padding: 10px 20px;
+            background-color: black;
+        }
+        .titulo a:hover{
+            background-color: rgba(47, 255, 179, 0.926);
+            color: black;
+        }
+        h2{
+            font-family: "Poppins", sans-serif;
+        }
+        h1{
+            font-family: 'Montserrat', 'Roboto', sans-serif;
+            font-style: italic;
+            
+        }
+        body{
+            margin: 0;
+            background-color: black;
+            color: greenyellow;
+        }
+        .galeria{
+            text-align: center;
+        }
+        .beneficio{
+            text-align: center;
+        }
+        .beneficio li{
+            font-family: "Poppins", sans-serif;
+            font-size: 20px;
+        }
+        .galeria p{
+            font-family: "Dancing Script", cursive;
+            font-size: 25px;
+        }
+        .ubicacion{
+             text-align: center;
+        }
+        .Testimonios{
+            text-align: center;
+        }
+        .Testimonios p{
+            font-family: "Poppins", sans-serif;
+            font-size: 20px;
+        }
+        footer{
+            text-align: center;
+        }
+        footer a{
+            padding: 15px 20px;
+            text-decoration: none;
+            color: black;
+            background-color: greenyellow;
+        }
+        footer a:hover{
+            background-color: black;
+            color: yellowgreen;
+        }

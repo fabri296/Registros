@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.libre img{
+   
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+    height: 200px;
+   
+
+}
+.libre::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+.pdc img{
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+    height: 200px;
+}
+.pdc::after{
+    content: "";
+    clear:both;
+    display: table;
+}

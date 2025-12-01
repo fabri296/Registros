@@ -1,0 +1,12 @@
+button{
+    display: inline-block;
+    
+}
+.botones{
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Gravitas One",serif;
+}

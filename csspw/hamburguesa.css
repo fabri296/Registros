@@ -1,0 +1,146 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000; 
+    color: white;
+}
+header {
+    background-color: #ffcc00; 
+    color: #000;
+    padding: 15px 0;
+}
+.cabecera {
+    text-align: center;
+}
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.navegacion {
+    text-align: center;
+}
+.navegacion h1 {
+    color: #000;
+    font-size: 28px;
+}
+
+.secciones ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.secciones a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    
+}
+
+.secciones a:hover {
+    color: #d62828;
+}
+
+
+.seccionP {
+    text-align: center;
+    padding: 20px;
+}
+
+.seccionP img {
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #d62828;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    
+    
+}
+
+.boton:hover {
+    background-color: #a61616;
+}
+
+
+section {
+    padding: 40px 20px;
+    background-color: #000; 
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: #ffcc00;
+    font-size: 26px;
+}
+
+h3 {
+    color: #ffcc00;
+    font-size: 22px;
+}
+
+p {
+    color: #ddd;
+    font-size: 18px;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap; 
+    padding: 10px;
+}
+
+.galeria img {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+   
+}
+
+
+section img {
+    border-radius: 10px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+
+section:last-of-type img {
+    display: inline-block;
+    text-align: center;
+}
+
+
+iframe {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+  
+}
+footer {
+    background-color: #ffcc00;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+footer img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
